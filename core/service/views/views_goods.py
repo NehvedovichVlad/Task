@@ -3,7 +3,6 @@ from rest_framework import generics
 from service.models import Goods
 from service.serializers import GoodsDetailSerializer, GoodsListSerializer
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
-from django_filters.rest_framework import DjangoFilterBackend
 
 class GoodsCreateView(generics.CreateAPIView):
     serializer_class = GoodsDetailSerializer

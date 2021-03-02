@@ -1,22 +1,29 @@
 from django_filters.rest_framework import DjangoFilterBackend
+from requests import Response
 from rest_framework import generics
-from rest_framework.filters import SearchFilter
-from rest_framework.permissions import IsAuthenticated
-
 from service.add_filters import SoldGoodsFilterInFilter
-from service.models import SoldGoods
+from service.models import SoldGoods, Goods
 from service.serializers import SoldGoodsListSerializer
+from service.utils import SoldGoodsMixin
 
 
-class SoldGoodsListView(generics.ListAPIView):
+class SoldGoodsListView(SoldGoodsMixin, generics.ListAPIView):
     serializer_class = SoldGoodsListSerializer
-    queryset = SoldGoods.objects.all()
-    permission_classes = (IsAuthenticated, )
     filter_backends = (DjangoFilterBackend,)
     filter_class = SoldGoodsFilterInFilter
 
-class SoldGoodsCreateView(generics.CreateAPIView):
+class SoldGoodsCreateView(SoldGoodsMixin, generics.CreateAPIView):
     serializer_class = SoldGoodsListSerializer
     queryset = SoldGoods.objects.all()
-    permission_classes = (IsAuthenticated, )
+    ass = Goods.objects.all()
+    for a in ass:
+        a.delete()
+
+
+   # g = Goods.objects.latest()
+    #g.soldgoods_set.clear()
+    #print(g.soldgoods_set.all())
+
+
+
 

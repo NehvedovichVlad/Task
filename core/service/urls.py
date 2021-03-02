@@ -1,10 +1,10 @@
 from django.urls import path
 
-from service.views_category import *
-from service.views_goods import *
-from service.views_magazine import *
-from service.views_sold_goods import SoldGoodsListView, SoldGoodsCreateView
-from service.views_storage import *
+from service.views.views_category import *
+from service.views.views_goods import *
+from service.views.views_magazine import *
+from service.views.views_sold_goods import SoldGoodsListView, SoldGoodsCreateView
+from service.views.views_storage import *
 
 app_name = 'service'
 urlpatterns = [
