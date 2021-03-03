@@ -1,7 +1,6 @@
 import os
 from pathlib import Path
 import dj_database_url
-import django_heroku
 
 DB_NAME = os.environ.get('DB_NAME')
 DB_PASSWORD = os.environ.get('DB_PASSWORD')
@@ -29,7 +28,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #------------------------------
     'rest_framework',
-    'rest_framework.authtoken',
     'djoser',
     'django_filters',
     'service',
@@ -52,7 +50,7 @@ ROOT_URLCONF = 'core.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -115,7 +113,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework.authentication.SessionAuthentication',
-        'rest_framework.authentication.TokenAuthentication',
 
     ),
     'DEFAULT_FILTER_BACKENDS': (
@@ -123,6 +120,4 @@ REST_FRAMEWORK = {
     ),
 
 }
-STATICFILES_STORAGE = 'whitenoise.django.GsiManifestStaticFilesStorage'
 
-django_heroku.settings(locals())
