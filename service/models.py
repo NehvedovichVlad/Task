@@ -56,7 +56,7 @@ class Magazine(models.Model):
 
 
 class SoldGoods(models.Model):
-    goods = models.ForeignKey('Goods', on_delete=models.PROTECT, verbose_name='Товар', null=True)
+    goods = models.ForeignKey('Goods', on_delete=models.CASCADE, verbose_name='Товар')
     magazine = models.ForeignKey('Magazine', on_delete=models.PROTECT, verbose_name='Магазин')
     storage = models.ForeignKey('Storage', on_delete=models.PROTECT, verbose_name='Склад')
 
