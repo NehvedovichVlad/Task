@@ -16,7 +16,7 @@ SECRET_KEY = SECRET_KEY
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['nvtask.herokuapp.com']
+ALLOWED_HOSTS = ['koptask.herokuapp.com']
 
 
 INSTALLED_APPS = [
