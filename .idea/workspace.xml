@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c8fdd1d-a98a-4ca3-acf6-aa44628f54c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/core/settings/production.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/core/settings/production.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1p4Fo9GdCkh5MPTahYkmDTrIPP4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/core" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\Task\core\core" />
+      <recent name="D:\projects\Task\core\service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\Task\core" />
+      <recent name="D:\projects\Task\core\core\settings" />
+      <recent name="D:\projects\Task\core\service\views" />
+      <recent name="D:\projects\Task\core\service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="views_sold_goods" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Task" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/service/views" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/service/views/views_sold_goods.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views_sold_goods" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c8fdd1d-a98a-4ca3-acf6-aa44628f54c3" name="Default Changelist" comment="" />
+      <created>1614434627499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614434627499</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1614630109825</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614630109825</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first">
+      <created>1614630283857</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614630283857</updated>
+    </task>
+    <task id="LOCAL-00003" summary="second version">
+      <created>1614708139352</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614708139352</updated>
+    </task>
+    <task id="LOCAL-00004" summary="for heroku">
+      <created>1614737907973</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614737907973</updated>
+    </task>
+    <task id="LOCAL-00005" summary="gitignore">
+      <created>1614737992051</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614737992051</updated>
+    </task>
+    <task id="LOCAL-00006" summary="runtime delete">
+      <created>1614738285962</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614738285962</updated>
+    </task>
+    <task id="LOCAL-00007" summary="change jwt heroku">
+      <created>1614738642701</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614738642701</updated>
+    </task>
+    <task id="LOCAL-00008" summary="corrected a mistake">
+      <created>1614740885962</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614740885962</updated>
+    </task>
+    <task id="LOCAL-00009" summary="corrected a mistake">
+      <created>1614740904943</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614740904943</updated>
+    </task>
+    <task id="LOCAL-00010" summary="corrected a mistake Procfile">
+      <created>1614741665975</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614741665975</updated>
+    </task>
+    <task id="LOCAL-00011" summary="corrected a mistake Procfile">
+      <created>1614741908449</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614741908449</updated>
+    </task>
+    <task id="LOCAL-00012" summary="static root">
+      <created>1614744935924</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1614744935924</updated>
+    </task>
+    <task id="LOCAL-00013" summary="static root">
+      <created>1614745233993</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1614745233993</updated>
+    </task>
+    <task id="LOCAL-00014" summary="templates">
+      <created>1614746764949</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1614746764949</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix">
+      <created>1614747448134</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1614747448134</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <MESSAGE value="second version" />
+    <MESSAGE value="for heroku" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="runtime delete" />
+    <MESSAGE value="change jwt heroku" />
+    <MESSAGE value="corrected a mistake" />
+    <MESSAGE value="corrected a mistake Procfile" />
+    <MESSAGE value="static root" />
+    <MESSAGE value="templates" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614740683402">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1614740683402" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1614740028100">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614740028100" />
+    <state width="1323" height="217" key="GridCell.Tab.0.bottom" timestamp="1614638700305">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614638700305" />
+    <state width="1323" height="217" key="GridCell.Tab.0.center" timestamp="1614638700305">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614638700305" />
+    <state width="1323" height="217" key="GridCell.Tab.0.left" timestamp="1614638700305">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614638700305" />
+    <state width="1323" height="217" key="GridCell.Tab.0.right" timestamp="1614638700305">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614638700305" />
+    <state width="1323" height="217" key="GridCell.Tab.1.bottom" timestamp="1614638700306">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614638700306" />
+    <state width="1323" height="217" key="GridCell.Tab.1.center" timestamp="1614638700305">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1614638700305" />
+    <state width="1323" height="217" key="GridCell.Tab.1.left" timestamp="1614638700305">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1614638700305" />
+    <state width="1323" height="217" key="GridCell.Tab.1.right" timestamp="1614638700305">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1614638700305" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1614448421477">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1614448421477" />
+    <state x="275" y="78" key="Vcs.Push.Dialog.v2" timestamp="1614747462552">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="78" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1614747462552" />
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1614518145822">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1614518145822" />
+  </component>
+</project>

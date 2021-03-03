@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 import dj_database_url
+import django_heroku
 
 DB_NAME = os.environ.get('DB_NAME')
 DB_PASSWORD = os.environ.get('DB_PASSWORD')
@@ -122,3 +123,6 @@ REST_FRAMEWORK = {
     ),
 
 }
+STATICFILES_STORAGE = 'whitenoise.django.GsiManifestStaticFilesStorage'
+
+django_heroku.settings(locals())
