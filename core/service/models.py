@@ -59,7 +59,6 @@ class SoldGoods(models.Model):
     goods = models.ForeignKey('Goods', on_delete=models.SET_NULL, verbose_name='Товар', null=True)
     magazine = models.ForeignKey('Magazine', on_delete=models.PROTECT, verbose_name='Магазин')
     storage = models.ForeignKey('Storage', on_delete=models.PROTECT, verbose_name='Склад')
-    #category = models.ForeignKey('Category', on_delete=models.PROTECT, verbose_name='Категория')
 
     class Meta:
         verbose_name = 'Проданный товар'

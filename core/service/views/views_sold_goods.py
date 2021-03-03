@@ -15,14 +15,6 @@ class SoldGoodsListView(SoldGoodsMixin, generics.ListAPIView):
 class SoldGoodsCreateView(SoldGoodsMixin, generics.CreateAPIView):
     serializer_class = SoldGoodsListSerializer
     queryset = SoldGoods.objects.all()
-    ass = Goods.objects.all()
-    for a in ass:
-        a.delete()
-
-
-   # g = Goods.objects.latest()
-    #g.soldgoods_set.clear()
-    #print(g.soldgoods_set.all())
 
 
 
