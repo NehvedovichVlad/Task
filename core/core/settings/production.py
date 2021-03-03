@@ -9,7 +9,7 @@ DB_USER = os.environ.get('DB_USER')
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 from django.contrib import admin
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 
 SECRET_KEY = SECRET_KEY
