@@ -1,6 +1,10 @@
 from rest_framework.permissions import IsAuthenticated
-from service.models import Magazine, SoldGoods, Storage, Category
+from service.models import Magazine, SoldGoods, Storage, Category, Goods
 
+
+class GoodsMixin():
+    queryset = Goods.objects.all()
+    permission_clsses = (IsAuthenticated,)
 
 class MagazineMixin():
     queryset = Magazine.objects.all()
